@@ -125,8 +125,8 @@ def get_data_splits(data_dir):
     all_mask_files = [f.replace("_img.npy", "_mask.npy") for f in all_image_files]
     print(f"Generated {len(all_mask_files)} expected mask file paths.")
 
-    print("🧾 Sample image files found:", all_image_files[:2])
-    print("🧾 Sample mask files expected:", all_mask_files[:2])
+    print(" Sample image files found:", all_image_files[:2])
+    print(" Sample mask files expected:", all_mask_files[:2])
 
     #  Pair image and mask files, checking for mask file existence
     paired_files = []
